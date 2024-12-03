@@ -11,8 +11,7 @@ class StudentModel {
    final String age;
 
    @HiveField(2)
-   final String Adress;
-
+   final String adress;
    @HiveField(3)
    final String number;
 
@@ -20,7 +19,7 @@ class StudentModel {
    final String image;
 
 
-   StudentModel({required this.name,required this.age,required this.Adress,required this.image,required this.number});
+   StudentModel({required this.name,required this.age,required this.adress,required this.image,required this.number});
 
 
 }
